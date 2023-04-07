@@ -30,3 +30,21 @@ total += calculatePercent('chemistry', 100)
 total += calculatePercent('biology', 100)
 total += calculatePercent('english', 100)
 alert('You got a total of ' + (total / 500 * 100) + '% combined')
+var array = [1, true, '3', 4.5, 5]
+var index = 0;
+var num = 2;
+console.log(array[index])
+index = num++
+console.log(array[index])
+index = ++num
+console.log(array[index])
+index = --num
+console.log(array[index])
+index = num--
+console.log(array[index])
+
+console.log(array)
+array.push(99, 24)
+console.log(array)
+array.pop()
+console.log(array)
